@@ -29,10 +29,10 @@ public class Phone {
 		for (int j = 0; j <= net.phones.length; j++) {
 			if (net.phones[j] == null) {
 				net.phones[j] = phone;
-				System.out.println("Номер успешно зарегистрирован!");
+				System.out.println("РќРѕРјРµСЂ СѓСЃРїРµС€РЅРѕ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅ!");
 				break;
 			}
-			System.out.println("В сети нет места для нового номера");
+			System.out.println("Р’ СЃРµС‚Рё РЅРµС‚ РјРµСЃС‚Р° РґР»СЏ РЅРѕРІРѕРіРѕ РЅРѕРјРµСЂР°");
 		}
 
 		net.setPhones(net.phones);
@@ -43,10 +43,10 @@ public class Phone {
 
 		for (int j = 0; j <= net.phones.length; j++) {
 			if (net.phones[j] == phone) {
-				System.out.println("Звонок произведен!");
+				System.out.println("РРґРµС‚ Р·РІРѕРЅРѕРє");
 				break;
 			}
-			System.out.println("Данный абонент в сети не зарегистрирован");
+			System.out.println("Р”Р°РЅРЅС‹Р№ Р°Р±РѕРЅРµРЅС‚ РІ СЃРµС‚Рё РЅРµ Р·Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°РЅ");
 
 		}
 	}
